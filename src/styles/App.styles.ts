@@ -1,4 +1,4 @@
-import { styled, IconButton } from '@mui/material';
+import { styled } from '@mui/material';
 
 export const AppStyled = styled('div')`
     border: 1px solid gray;

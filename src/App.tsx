@@ -28,7 +28,6 @@ function App() {
 
   useEffect(() => {
     myPokemons.length > 0 && localStorage.setItem('pokemons', JSON.stringify(myPokemons));
-    console.log(myPokemons);
   }, [myPokemons]);
 
   const theme = createTheme({

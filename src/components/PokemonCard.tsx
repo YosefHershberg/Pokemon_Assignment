@@ -12,7 +12,7 @@ function PokemonCard({ pokemon }: any) {
                 </Typography>
                 <CardMedia
                     sx={{ height: 140 }}
-                    image="https://picsum.photos/300/200"
+                    image={pokemon.sprites.front_default}
                     title="green iguana"
                 />
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1em' }}>

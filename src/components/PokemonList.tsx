@@ -4,9 +4,14 @@ import { selectAllMyPokemons } from '../redux/MyPokemonsSlice'
 import PokemonCard from './PokemonCard'
 import { nanoid } from "@reduxjs/toolkit";
 import { Center } from '../styles/Center.styles';
+import { useEffect } from 'react';
 
 function PokemonList() {
     const myPokemons = useSelector(selectAllMyPokemons)
+
+    useEffect(() => {
+        console.log(myPokemons);
+    }, []);
 
     return (
         <>
