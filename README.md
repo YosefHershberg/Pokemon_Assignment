@@ -1,4 +1,4 @@
-# Vite React App with Styled Components, Material UI, Redux, Dark/Light Mode, and Pokémon Name/Nickname Editing
+# Pokemon Assignment
 
 This repository contains a React application bootstrapped with Vite, featuring a search bar to query a list of Pokémon. The user can add Pokémon from the search list to their personal Pokémon list, and they have the ability to edit the Pokémon's name and nickname before saving it. The UI is built using Styled Components and Material UI, and it includes support for both dark and light modes. Redux (with Redux Thunks) is used to handle the global state, including fetching data from the Pokémon API.
 
@@ -38,25 +38,5 @@ The project structure follows a typical React application layout:
   - `components/`: Directory for React components.
   - `styles/`: Directory for CSS or styling-related files.
   - `redux/`: Directory for Redux-related files, including actions, reducers, and thunks.
-  - `api/`: Directory for API-related files, such as API service and utility functions.
 
-## Customization
 
-Feel free to modify and customize the application to fit your needs. Some suggestions for customization include:
-
-- Customizing the styles of the UI components using Styled Components and Material UI theming.
-- Extending the Redux store and actions to handle more complex state management requirements.
-- Modifying the dark and light mode styles and behavior to match your desired design.
-- Adding additional features or interactions to enhance the Pokémon search and list functionalities.
-
-## Learn More
-
-To learn more about Vite, check out the [Vite documentation](https://vitejs.dev/).
-
-To learn more about React, check out the [React documentation](https://reactjs.org/).
-
-To learn more about Styled Components, visit the [Styled Components documentation](https://styled-components.com/).
-
-To learn more about Material UI, visit the [Material UI documentation](https://mui.com/).
-
-To learn more about Redux,
