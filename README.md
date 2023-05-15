@@ -6,11 +6,10 @@ This repository contains a React application bootstrapped with Vite, featuring a
 
 To get started with the Vite React app, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/vite-react-app.git`
-2. Change into the project directory: `cd vite-react-app`
+1. Clone this repository: `git clone https://github.com/YosefHershberg/Pokemon_Assignment.git`
+2. Change into the project directory: `cd Pokemon_Assignment`
 3. Install dependencies: `npm install` or `yarn install`
 4. Start the development server: `npm run dev` or `yarn dev`
-5. Open your browser and visit `http://localhost:3000` to see the app running.
 
 ## Features
 
