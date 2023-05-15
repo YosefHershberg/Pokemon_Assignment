@@ -9,10 +9,6 @@ import { useEffect } from 'react';
 function PokemonList() {
     const myPokemons = useSelector(selectAllMyPokemons)
 
-    useEffect(() => {
-        console.log(myPokemons);
-    }, []);
-
     return (
         <>
             {myPokemons.length === 0 ? 
